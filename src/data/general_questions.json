@@ -1,0 +1,218 @@
+{
+	"": [
+		{
+			"value": 36,
+			"isAnswered": false,
+			"question": "إذا كان عمر الأب 45 وعمر الإبن 25, قبل كم عام كان عمر الأب ضعف عمر الإبن؟"
+		},
+		{
+			"value": 37,
+			"isAnswered": false,
+			"question": "شيء يمشي بلا رجلين ويبكي بلا عيون؟"
+		},
+		{
+			"value": 38,
+			"isAnswered": false,
+			"question": "اعطيني اسم واحد من أحياء مدينة القدس"
+		},
+		{
+			"value": 39,
+			"isAnswered": false,
+			"question": "ما عنوان اللقاء الماضي؟"
+		},
+		{
+			"value": 40,
+			"isAnswered": false,
+			"question": "ما هو الدعاء الذي وصى به الرسول الكريم في ليلة القدر؟"
+		}
+	],
+	" ": [
+		{
+			"value": 31,
+			"isAnswered": false,
+			"question": "ما هو الذهب الأسود؟"
+		},
+		{
+			"value": 32,
+			"isAnswered": false,
+			"question": "ما هو الشيء الذي يرفع أثقال ولا يقدر على يرفع مسمار ؟"
+		},
+		{
+			"value": 33,
+			"isAnswered": false,
+			"question": "ما هو أضعف بيت على الأرض ؟"
+		},
+		{
+			"value": 34,
+			"isAnswered": false,
+			"question": "ما وجه الشبه بين الطائرة وفريق كرة القدم ؟"
+		},
+		{
+			"value": 35,
+			"isAnswered": false,
+			"question": "ماذا يمكن أن تجد في وسط باريس؟"
+		}
+	],
+	"  ": [
+		{
+			"value": 26,
+			"isAnswered": false,
+			"question": "تحدي مكاسرة مع حدا قد عمرك"
+		},
+		{
+			"value": 27,
+			"isAnswered": false,
+			"question": "من كان بصحبة النبي محمد(صلى الله عليه وسلم) عندما أسري من المسجد الحرام إلى المسجد الأقصى؟"
+		},
+		{
+			"value": 28,
+			"isAnswered": false,
+			"question": "ماذا كان اسم المدينة المنورة قبل الهجرة",
+			"options": ["الحبشة", "مكة", "المدينة المنورة", "يثرب"]
+		},
+		{
+			"value": 29,
+			"isAnswered": false,
+			"question": "شيء لا تستطيع مسكه بيدك اليمنى"
+		},
+		{
+			"value": 30,
+			"isAnswered": false,
+			"question": "اشرحلنا عن لعبة لعبتها اللقاء الماضي"
+		}
+	],
+	"   ": [
+		{
+			"value": 21,
+			"isAnswered": false,
+			"question": "اعطينا نكتة بتضحك"
+		},
+		{
+			"value": 22,
+			"isAnswered": false,
+			"question": "ما اسم المنبر الموجود في المسجد الأقصى:",
+			"options": [
+				"منبر نور الدين الزنكي",
+				"منبر صلاح الدين الأيوبي",
+				"منبر عمر بن الخطاب"
+			]
+		},
+		{
+			"value": 23,
+			"isAnswered": false,
+			"question": "انت مذيع على التلفاز، اعطنا نشرة الاخبار او النشرة الجوية لمدة 30 ثانية"
+		},
+		{
+			"value": 24,
+			"isAnswered": false,
+			"question": "كم يبلغ العدد الكلي لمعالم المسجد الأقصى من مقباب وأروقة ومنابر ومآذن وغيرها؟",
+			"options": [200, 196, 205]
+		},
+		{
+			"value": 25,
+			"isAnswered": false,
+			"question": "ما هو المنتخب العنابي؟"
+		}
+	],
+	"    ": [
+		{ "value": 16, "isAnswered": false, "question": " عشرون تمرين ضغط" },
+		{
+			"value": 17,
+			"isAnswered": false,
+			"question": "لماذا سمي المسجد الأقصى بهذا الإسم؟"
+		},
+		{
+			"value": 18,
+			"isAnswered": false,
+			"question": "اذكرلي حديث من الرسول عن المسجد الأقصى"
+		},
+		{
+			"value": 19,
+			"isAnswered": false,
+			"question": "اعطينا معلومتين أخدتهم اليوم"
+		},
+		{
+			"value": 20,
+			"isAnswered": false,
+			"question": "لماذا يعتبر الخشب من الأيتام ؟"
+		}
+	],
+	"     ": [
+		{
+			"value": 11,
+			"isAnswered": false,
+			"question": "أين يقع جبل طارق",
+			"options": ["بين إسبانيا والمغرب", "بين فرنسا وإنجلترا"]
+		},
+		{
+			"value": 12,
+			"isAnswered": false,
+			"question": "من هو اللاعب الوحيد الذي فاز بدوري ابطال اوروبا مع 3 فرق مختلفة؟",
+			"options": ["توني كروس", "كريستيانو رونالدو", "سيدورف", "جاريث بيل"]
+		},
+		{
+			"value": 13,
+			"isAnswered": false,
+			"question": "ما هي عروس القرآن"
+		},
+		{
+			"value": 14,
+			"isAnswered": false,
+			"question": "كم ج",
+			"options": ["عين جالوت", "حطين"]
+		},
+		{
+			"value": 15,
+			"isAnswered": false,
+			"question": "كم عدد أيام هذه السنة؟"
+		}
+	],
+	"        ": [
+		{
+			"value": 6,
+			"isAnswered": false,
+			"question": "مساحة فلسطين التاريخية كم تبلغ؟"
+		},
+		{
+			"value": 7,
+			"isAnswered": false,
+			"question": "اعطينا آية من سورة البقرة"
+		},
+		{
+			"value": 8,
+			"isAnswered": false,
+			"question": "ما هي أقدم مدينة بالعالم"
+		},
+		{
+			"value": 9,
+			"isAnswered": false,
+			"question": "أذكر 3 قباب في المسجد الأقصى"
+		},
+		{
+			"value": 10,
+			"isAnswered": false,
+			"question": "ماذا يسمى الشهر الأول في التقويم الهجري ؟",
+			"options": ["ذو القعدة", "محرم", "صفر"]
+		}
+	],
+	"      ": [
+		{
+			"value": 1,
+			"isAnswered": false,
+			"question": "لماذا سمي مسجد البراق بهذا الإسم؟"
+		},
+		{ "value": 2, "isAnswered": false, "question": "جائزة فورية" },
+		{
+			"value": 3,
+			"isAnswered": false,
+			"question": "ربحت معنا رحلة للكافيتريا"
+		},
+		{
+			"value": 4,
+			"isAnswered": false,
+			"question": "مساحة المسجد الأقصى تبلغ",
+			"options": ["114 دونم", "145 دونم", "144 دونم"]
+		},
+		{ "value": 5, "isAnswered": false, "question": "عشرة تمارين معدة " }
+	]
+}
