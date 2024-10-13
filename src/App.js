@@ -7,77 +7,83 @@ import './App.css';
 import 'primereact/resources/themes/soho-light/theme.css';
 
 class App extends React.Component {
-  state = {
-    gridData: this.initializeGridData(),
-    currentQuestion: null,
-    showQuestionScreen: false,
-    showTimeUpScreen: false,
-  };
+	state = {
+		gridData: this.initializeGridData(),
+		currentQuestion: null,
+		showQuestionScreen: false,
+		showTimeUpScreen: false,
+	};
 
-  initializeGridData() {
-    // Initialize your grid data with categories and values
-    const data = require('./data/general_questions.json');
+	initializeGridData() {
+		// Initialize your grid data with categories and values
+		const data = require('./data/general_questions 2.json');
 
-    return data;
-  }
+		return data;
+	}
 
-  onCellClick = (category, value, question, options) => {
-    this.setState({
-      currentQuestion: { category, value, question, options },
-      showQuestionScreen: true
-    });
-  };
+	onCellClick = (category, value, question, options) => {
+		this.setState({
+			currentQuestion: { category, value, question, options },
+			showQuestionScreen: true,
+		});
+	};
 
-  onTimerEnd = () => {
-    const updatedGridData = this.markCellAsAnswered(this.state.gridData, this.state.currentQuestion);
+	onTimerEnd = () => {
+		const updatedGridData = this.markCellAsAnswered(
+			this.state.gridData,
+			this.state.currentQuestion
+		);
 
-    this.setState({
-      gridData: updatedGridData,
-      showQuestionScreen: false,
-      showTimeUpScreen: true,
-      //////////////////////
-      //    currentQuestion: null // Set currentQuestion to null after updating the grid
-    });
-  };
+		this.setState({
+			gridData: updatedGridData,
+			showQuestionScreen: false,
+			showTimeUpScreen: true,
+			//////////////////////
+			//    currentQuestion: null // Set currentQuestion to null after updating the grid
+		});
+	};
 
-  returnToGrid = () => {
-    this.setState({
-      currentQuestion: null,
-      showTimeUpScreen: false,
-    })
-  }
-  markCellAsAnswered(gridData, question) {
-    const updatedGridData = { ...gridData };
-    updatedGridData[question.category] = updatedGridData[question.category].map(cell => {
-      if (cell.value === question.value) {
-        return { ...cell, isAnswered: true };
-      }
-      return cell;
-    });
-    return updatedGridData;
-  }
+	returnToGrid = () => {
+		this.setState({
+			currentQuestion: null,
+			showTimeUpScreen: false,
+		});
+	};
+	markCellAsAnswered(gridData, question) {
+		const updatedGridData = { ...gridData };
+		updatedGridData[question.category] = updatedGridData[question.category].map(
+			(cell) => {
+				if (cell.value === question.value) {
+					return { ...cell, isAnswered: true };
+				}
+				return cell;
+			}
+		);
+		return updatedGridData;
+	}
 
-  render() {
-    const { gridData, showQuestionScreen, currentQuestion, showTimeUpScreen } = this.state;
+	render() {
+		const { gridData, showQuestionScreen, currentQuestion, showTimeUpScreen } =
+			this.state;
 
-    return (
-      <div className="App">
-        {showQuestionScreen && currentQuestion ? (
-          <QuestionScreen
-            question={currentQuestion}
-            onTimeEnd={this.onTimerEnd}
-          />
-        ) : showTimeUpScreen ? (
-          <TimeUpScreen onReturnToGrid={this.returnToGrid} />
-        ) : (
-          <>
-            <h1 id='title'>Risk - المخاطرة</h1>
-            <Grid gridData={gridData} onCellClick={this.onCellClick} />
-          </>
-        )}
-      </div>
-    );
-  }
+		return (
+			<div className="App">
+				{showQuestionScreen && currentQuestion ? (
+					<QuestionScreen
+						question={currentQuestion}
+						onTimeEnd={this.onTimerEnd}
+					/>
+				) : showTimeUpScreen ? (
+					<TimeUpScreen onReturnToGrid={this.returnToGrid} />
+				) : (
+					<>
+						<h1 id="title">Risk - المخاطرة</h1>
+						<Grid gridData={gridData} onCellClick={this.onCellClick} />
+					</>
+				)}
+			</div>
+		);
+	}
 }
 
 export default App;
