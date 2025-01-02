@@ -16,7 +16,7 @@ class App extends React.Component {
 
 	initializeGridData() {
 		// Initialize your grid data with categories and values
-		const data = require('./data/general_questions 2.json');
+		const data = require('./data/Sufraa2_Questions.json');
 
 		return data;
 	}
